@@ -1,5 +1,5 @@
 var NodeSearch = require('./../lib/node-search').NodeSearch;
-var nStore = require('./lib/nstore');
+var nStore = require('./../examples/lib/nstore/lib/nstore.js');
 
 // A simple data set to search over, feel free to use any data source
 var db = nStore('data/example.db');
